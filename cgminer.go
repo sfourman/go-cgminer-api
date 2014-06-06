@@ -25,7 +25,7 @@ type Summary struct {
 	BestShare              int64   `json:"Best Share"`
 	DeviceHardwarePercent  float64 `json:"Device Hardware%"`
 	DeviceRejectedPercent  float64 `json:"Device Rejected%"`
-	DifficultyAccepted     float64 `json:"Difficulty Accepted"`
+	DifficultyAccepted     int64 `json:"Difficulty Accepted"`
 	DifficultyRejected     float64 `json:"Difficulty Rejected"`
 	DifficultyStale        float64 `json:"Difficulty Stale"`
 	Discarded              int64
