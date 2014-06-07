@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 )
-
+// test
 type CGMiner struct {
 	server string
 }
